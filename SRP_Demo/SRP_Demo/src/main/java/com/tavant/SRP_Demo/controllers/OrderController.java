@@ -1,0 +1,26 @@
+package com.tavant.SRP_Demo.controllers;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tavant.SRP_Demo.entity.Order;
+import com.tavant.SRP_Demo.service.OrderService;
+
+@RestController
+@RequestMapping("/api/orders")
+public class OrderController {
+
+	private final OrderService service;
+	
+	public OrderController(OrderService service) {
+		this.service = service;
+	}
+	
+	@PostMapping
+	public ResponseEntity<String> createOrder(Order order) {
+		service.createOrder(order);
+		return ResponseEntity.ok("Order created successfully");
+	}
+}

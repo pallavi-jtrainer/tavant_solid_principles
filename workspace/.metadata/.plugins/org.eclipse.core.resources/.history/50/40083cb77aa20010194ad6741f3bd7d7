@@ -1,0 +1,27 @@
+package com.tavant.SRP_Demo.service;
+
+import org.springframework.stereotype.Service;
+
+import com.tavant.SRP_Demo.entity.Order;
+import com.tavant.SRP_Demo.repository.OrderRepository;
+
+
+@Service
+public class OrderService {
+
+	private OrderRepository repo;
+	
+	public OrderService(OrderRepository repo) { this.repo = repo; }
+	
+	public Order createOrder(Order order) throws IllegalAccessException {
+		
+		if(order.getAmount() <= 0) {
+			throw new IllegalAccessException("Invalid order amount");
+		}
+		
+		Order  o = repo.save(order);
+		
+		System.out.println("Order created. Email sent to Customer");
+		return o;
+	}
+}
