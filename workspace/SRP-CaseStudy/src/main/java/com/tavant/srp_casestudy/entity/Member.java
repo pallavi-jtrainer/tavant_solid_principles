@@ -30,6 +30,9 @@ public class Member {
 	
 	@Column(nullable=false, unique=true)
 	private String email;
+	
+	@Column(nullable = false, unique=true)
+	private String phone;
 
 	public Member(String firstName, String lastName, String email) {
 		this.firstName = firstName;

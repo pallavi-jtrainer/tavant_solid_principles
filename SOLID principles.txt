@@ -35,3 +35,36 @@ Responsibilities:
 4. Business Logic -> OrderService
 5. API Endpoint exposure -> OrderController
 ____________________________________________________________________________________________
+
+Day 2:
+OCP
+-> Open Closed Principle
+
+
+
+Exercise:
+Add classes for all different processors + a new class to handle CrptoCurrency
+Add test cases for checkout service
+Integrate this into the OrderController
+
+2.
+Add a OrderDto and Mapper
+Add a FestivalDiscount Service
+Add a OrderValidatorService
+
+3. Add an InvoiceService that generate Pdf invoice
+   Add a NotificationService with a notification sender for email, sms, push and whatsapp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
