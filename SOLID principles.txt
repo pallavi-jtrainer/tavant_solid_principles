@@ -53,7 +53,16 @@ Add a FestivalDiscount Service
 Add a OrderValidatorService
 
 3. Add an InvoiceService that generate Pdf invoice
-   Add a NotificationService with a notification sender for email, sms, push and whatsapp 
+   Add a NotificationService with a notification sender for email, sms, push and WhatsApp
+
+
+
+--------------------------------
+Case study hands on
+1. Create a new class SlackNotificationService
+2. Register with Factory
+3. update LoanService
+4. Implement an Overdue reminder + overdue amount calculator
 
 
 
