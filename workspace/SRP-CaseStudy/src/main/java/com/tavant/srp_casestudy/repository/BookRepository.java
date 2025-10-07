@@ -19,6 +19,9 @@ public interface BookRepository extends JpaRepository<Book, Long>{
 	Optional<List<Book>> findAllByAuthor(String author);
 	Optional<List<Book>> findAllByTitle(String title);
 	
+	@Query("select Book b where b.available = true")
+	Optional<List<Book>> findAllByAvailable();
+	
 	@Modifying
 	@Query("update Book b set b.available = :available where b.id = :id")
 	int updateBookAvailability(@Param("id") long id, @Param("available") boolean available);
