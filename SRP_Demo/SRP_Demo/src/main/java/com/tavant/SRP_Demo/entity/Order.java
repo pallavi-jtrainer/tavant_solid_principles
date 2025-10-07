@@ -3,6 +3,8 @@ package com.tavant.SRP_Demo.entity;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+import com.tavant.SRP_Demo.utils.PaymentType;
+
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -21,4 +23,5 @@ public class Order {
 	private LocalDate orderDate;
 	private Double amount;
 	private long itemId;
+	private PaymentType paymentType;
 }
