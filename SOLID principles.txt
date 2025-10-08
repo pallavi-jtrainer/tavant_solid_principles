@@ -62,14 +62,52 @@ Case study hands on
 1. Create a new class SlackNotificationService
 2. Register with Factory
 3. update LoanService
-4. Implement an Overdue reminder + overdue amount calculator
+4. Implement an Overdue reminder + overdue amount calculation
+
+_________________________________________________________________________
+Day 3:
+LSP -> Liskov Substitution Principle
+-> By Barbara Liskov in late 1980s
+-> ensures proper usage of polymorphism
+-> subclasses behave consistently with their superclasses
+-> code stays stable and reliable when new implementations are introduced
 
 
+Ex violating LSP
+public class Bird {
+	public void fly() { //some behaviour }
+}
+
+public class Sparrow extends Bird {
+	@Override
+	public void fly() { // new behaviour }
+}
+
+public class Penguin extends Bird {
+	
+}
+-----------------------------------
+Refactoring for LSP compliant code
+public interface Bird {
+	void eat();
+}
 
 
+public interface FlyingBird extends Bird {
+	void fly();
+}
 
+public class Sparrow implements FlyingBird {}
 
+public class Penguin implements Bird {}
+-------------------------------------------------
 
+Hands On:
+1. update the order controller
+2. add a shipping controller
+3. Add a class LimitedShippingService based on weight calculation
+4. Add a new shipping service called SpeedShippingService -> cost per kg is 25, if weight >5kg, should switch to StandardShipping
+5. Add a ShippingFactory class
 
 
 
