@@ -114,6 +114,9 @@ Case Study hands on
 1. create a Reservation entity
 2. Refactor LoanController to handle the reservation logic
 3. Update the mapper to handle this new logic
+4. Write test cases
+5. Add a Category entity
+6. Add member subscription levels
 
 
 
