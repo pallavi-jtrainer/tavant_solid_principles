@@ -108,7 +108,12 @@ Hands On:
 3. Add a class LimitedShippingService based on weight calculation
 4. Add a new shipping service called SpeedShippingService -> cost per kg is 25, if weight >5kg, should switch to StandardShipping
 5. Add a ShippingFactory class
+6. Add a Discount Factory
 
+Case Study hands on
+1. create a Reservation entity
+2. Refactor LoanController to handle the reservation logic
+3. Update the mapper to handle this new logic
 
 
 

@@ -18,9 +18,9 @@ public class OrderController {
 		this.service = service;
 	}
 	
-	@PostMapping
-	public ResponseEntity<String> createOrder(Order order) {
-		service.createOrder(order);
-		return ResponseEntity.ok("Order created successfully");
-	}
+//	@PostMapping
+//	public ResponseEntity<String> createOrder(Order order) {
+//		service.createOrder(order);
+//		return ResponseEntity.ok("Order created successfully");
+//	}
 }
