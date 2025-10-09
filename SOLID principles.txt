@@ -118,8 +118,23 @@ Case Study hands on
 5. Add a Category entity
 6. Add member subscription levels
 
+__________________________________________________________________________________________________________________________
+Day 4: 
+ISP -> Interface Segregation Principle
+-> Classes should not be forced to implement what they don't need
 
+Ex:
+public interface RestaurantService {   <- Fat Interface
+	void takingFoodOrder();
+	void serveDrinks();
+	void deliverOnline();
+	void driveThruService();
+}
 
+hands on
+1. Create an InvoiceService which depends on the Email Notification service only. 
+2. Create a ReportGenerator to generate reports in 3 formats - Pdf, Html, Excel
+3. Connect the generator to the EmailNotificationService
 
 
 
