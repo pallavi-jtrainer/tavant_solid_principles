@@ -1,5 +1,7 @@
 package com.tavant.SRP_Demo.entity;
 
+import com.tavant.SRP_Demo.utils.CategoryType;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -23,9 +25,20 @@ public class Product {
 	private long id;
 	private String name;
 	private double price;
+	private CategoryType category;
+	private int quantity;
 	
 	public Product(String name, double price) {
 		this.name = name;
 		this.price = price;
 	}
+
+	public Product(String name, double price, CategoryType category, int quantity) {
+		this.name = name;
+		this.price = price;
+		this.category = category;
+		this.quantity = quantity;
+	}
+	
+	
 }
