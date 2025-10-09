@@ -754,3 +754,131 @@
 2025-10-09 10:53:15,065 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-10-09 10:53:15,071 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-10-09 10:53:15,073 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\SRP_Demo\SRP_Demo\src\test\resources
+2025-10-09 11:26:11,298 [Worker-54: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tavant:solid-ticketing-system:0.0.1-SNAPSHOT @ E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\pom.xml.
+2025-10-09 11:26:13,718 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /solid-ticketing-system/src/main/java
+2025-10-09 11:26:13,722 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /solid-ticketing-system/src/main/resources
+2025-10-09 11:26:13,730 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /solid-ticketing-system/src/main/resources
+2025-10-09 11:26:13,738 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /solid-ticketing-system/src/test/java
+2025-10-09 11:26:13,740 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /solid-ticketing-system/src/test/resources
+2025-10-09 11:26:14,280 [Worker-54: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-10-09 11:26:14,286 [Worker-54: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-10-09 11:26:15,013 [Worker-54: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tavant:solid-ticketing-system:0.0.1-SNAPSHOT @ E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\pom.xml.
+2025-10-09 11:26:16,130 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /solid-ticketing-system/src/main/java
+2025-10-09 11:26:16,132 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /solid-ticketing-system/src/main/resources
+2025-10-09 11:26:16,133 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /solid-ticketing-system/src/main/resources
+2025-10-09 11:26:16,134 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /solid-ticketing-system/src/test/java
+2025-10-09 11:26:16,136 [Worker-54: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /solid-ticketing-system/src/test/resources
+2025-10-09 11:26:17,211 [Worker-54: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-10-09 11:26:18,021 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:26:18,066 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:26:18,085 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:31:08,325 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:31:08,338 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:31:08,345 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:31:53,476 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:31:53,485 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:31:53,490 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:32:30,465 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:32:30,480 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:32:30,490 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:32:37,047 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.15; built: 2024-11-05T19:44:57.623Z; git: 8281ae9740d4b4225e8166cc476bad237c70213a; jvm 21.0.6+8-LTS-188
+2025-10-09 11:32:37,239 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@368582ce{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@651ce6ce{STARTED}}
+2025-10-09 11:32:37,241 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-10-09 11:32:37,345 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@614b6346{HTTP/1.1, (http/1.1)}{127.0.0.1:52887}
+2025-10-09 11:32:37,396 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@552a7d2a{STARTING}[12.0.15,sto=0] @6868129ms
+2025-10-09 11:33:57,298 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:33:57,325 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:33:57,337 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:34:06,607 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:34:06,614 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:34:06,621 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:35:33,666 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:35:33,672 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:35:33,674 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:36:19,168 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:36:19,182 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:36:19,193 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:36:58,558 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:36:58,568 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:36:58,576 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:40:03,259 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:40:03,273 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:40:03,278 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:40:56,398 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:40:56,417 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:40:56,426 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:41:29,107 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:41:29,113 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:41:29,116 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:41:40,475 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:41:40,488 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:41:40,498 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:42:06,869 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:42:06,888 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:42:06,899 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:42:19,841 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:42:19,854 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:42:19,860 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:45:01,432 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:45:01,454 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:45:01,460 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:45:29,596 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:45:29,610 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:45:29,618 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:46:42,045 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:46:42,071 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:46:42,083 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:47:27,002 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:47:27,008 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:47:27,014 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:47:40,293 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:47:40,303 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:47:40,309 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:48:17,986 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:48:17,992 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:48:17,996 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:48:25,665 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:48:25,673 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:48:25,679 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:48:37,510 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:48:37,525 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:48:37,543 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:48:57,938 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:48:57,944 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:48:57,948 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:49:39,259 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:49:39,270 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:49:39,278 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:50:10,709 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:50:10,719 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:50:10,722 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:52:49,644 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:52:49,656 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:52:49,663 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:53:33,511 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:53:33,521 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:53:33,525 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:54:22,441 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:54:22,448 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:54:22,454 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:54:50,346 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:54:50,358 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:54:50,363 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:55:20,135 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:55:20,143 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:55:20,147 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:56:21,561 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:56:21,578 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:56:21,584 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:56:41,504 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:56:41,521 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:56:41,528 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:57:35,303 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:57:35,308 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:57:35,311 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:57:53,719 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:57:53,724 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:57:53,727 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
+2025-10-09 11:58:06,982 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-09 11:58:06,991 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-09 11:58:06,995 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\trainings\skillbridge\tavant\java\workspace\solid-ticketing-system\src\test\resources
