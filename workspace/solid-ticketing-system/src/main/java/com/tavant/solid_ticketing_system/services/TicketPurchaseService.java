@@ -11,6 +11,8 @@ import com.tavant.solid_ticketing_system.repository.EventRepository;
 import com.tavant.solid_ticketing_system.repository.TicketRepository;
 import com.tavant.solid_ticketing_system.services.discount.DiscountPolicy;
 import com.tavant.solid_ticketing_system.services.notifications.EmailNotification;
+import com.tavant.solid_ticketing_system.services.notifications.Notifier;
+import com.tavant.solid_ticketing_system.services.payment.PaymentStrategy;
 import com.tavant.solid_ticketing_system.services.ticket.TicketTypeStrategy;
 
 @Service
@@ -19,20 +21,25 @@ public class TicketPurchaseService {
 	private final TicketRepository ticketRepo;
 	private final CustomerRepository customerRepo;
 	private final EventRepository eventRepo;
-	private final EmailNotification notify;
+//	private final EmailNotification notify;
+	private final Notifier notify;
 	private final DiscountPolicy discount;
 	private final TicketTypeStrategy ticketStrategy;
+	private final PaymentStrategy paymentStrategy;
 	
 	public TicketPurchaseService(TicketRepository ticketRepo, CustomerRepository customerRepo,
-			EventRepository eventRepo, EmailNotification notify, 
+			EventRepository eventRepo,
+			@Qualifier("emailNotifier") Notifier notify,
 			@Qualifier("regularDiscount") DiscountPolicy discount,
-			@Qualifier("regularTicket") TicketTypeStrategy ticketStrategy) {
+			@Qualifier("regularTicket") TicketTypeStrategy ticketStrategy,
+			@Qualifier("creditCardPayment") PaymentStrategy paymentStrategy) {
 		this.ticketRepo = ticketRepo;
 		this.customerRepo = customerRepo;
 		this.eventRepo = eventRepo;
 		this.notify = notify;
 		this.discount = discount;
 		this.ticketStrategy = ticketStrategy;
+		this.paymentStrategy = paymentStrategy;
 	}
 	
 	public Ticket purchaseTicket(Long customerId, Long eventId, double basePrice) {
@@ -53,12 +60,15 @@ public class TicketPurchaseService {
 		double discountPrice = discount.applyDiscount(customer, ticket.getPrice());
 		ticket.setPrice(discountPrice);
 		
+		if(!paymentStrategy.pay(discountPrice))
+			throw new RuntimeException("Payment failed");
+		
 		event.setAvailableTickets(event.getAvailableTickets() - 1);
 		eventRepo.save(event);
 		
 		Ticket savedTicket = ticketRepo.save(ticket);
 		
-		notify.sendEmail(customer.getEmail(), "Ticket booked for event " + event.getEventName() + " successfully");
+		notify.send(customer.getEmail(), "Ticket booked for event " + event.getEventName() + " successfully");
 		
 		return savedTicket;
 		

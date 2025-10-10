@@ -136,5 +136,95 @@ hands on
 2. Create a ReportGenerator to generate reports in 3 formats - Pdf, Html, Excel
 3. Connect the generator to the EmailNotificationService
 
+----------------------------------------------------------
+Ticketing System - SRP, OCP, LSP and ISP Compliant
+
+hands on
+1. add Purchase service
+2. add ticket type strategy
+3. add a simple payment service
+4. Add controller
+
+hands on for the case study
+1. add a dedicated OverdueReminderService
+2. In the pushnotificationservice, implement the Reservationnotifiactionservice and update the methods
+3. Add a fine payment service
+________________________________________________________
+
+Day 5:
+DIP
+-> Dependency Inversion Principle
+-> states that:
+	- high level modules should not be dependent on low level modules
+	- both should depend on abstractions (interfaces)
+	- abstractions should not depend on the details, details should depend on abstractions
+
+Ex violating DIP
+
+// low-level
+@Component
+public class EmailNotificationService {
+	public void sendNotification(String to, String message) {
+		sysout(...);
+	}
+} 	
+
+// high level
+@Service
+public class OrderService {
+	private final EmailNotificationService emailService;
+
+	public OrderService() {
+		this.emailService = new EmailNotificationService();
+	}
+}
+--------------------------------------------------
+DIP compliant
+
+public interface NotificationService {
+	void send(String to, String message);
+}
+
+@Service
+@Primary
+public class EmailNotificationService implements NotificationService {
+	
+	@Override
+	public void send(...) {
+		//...
+	}
+}
+
+@Service
+public class OrderService {
+	
+	private final NotificationService service;
+
+	public OrderService(NotificationService service){
+		this.service = service;
+	}
+}
+
+------------------------------------------------------------------
+
+hands on:
+1. Make the discount application dynamic based on customer type
+2. Make the shipping strategy dynamic based on customer type
+
+----------------------------------------
+Create a Vehicle Management System Project which incorporates SRP, OCP, LSP, ISP and DIP
+1. Entities: Customer, Vehicle, Mechanic, Maintenance
+2. Create the necessary repositories and services.
+3. Add NotificationService
+4. Add a new Mechanic Type. Example: Electrical mechanic
+5. Add a Payment service
+6. Add a Invoice service which generates an invoice in PDF format
+7. Add Service history to the vehicles
+Note: Have at least 2 kinds of vehicles( ex. car and truck)
+
+
+
+
+
 
 
